@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Coding Notes PDF</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>All Coding Notes PDF</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#python">Python</a></li>
+            <li><a href="#java">Java</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="html">
+            <h2>HTML Notes</h2>
+            <div class="pdf-container">
+                <embed src="file:///C:/Users/nitis/OneDrive/Desktop/6.1.%20File%20System.pdf" type="Chrome HTML Document.pdf" width="100%" height="600px">
+                <a href=""C:\Users\nitis\OneDrive\Desktop\6.1. File System.pdf"" download class="download-btn">Download HTML Notes</a>
+            </div>
+        </section>
+
+        <section id="css">
+            <h2>CSS Notes</h2>
+            <div class="pdf-container">
+                <embed src="pdfs/css_notes.pdf" type="application/pdf" width="100%" height="600px">
+                <a href="pdfs/css_notes.pdf" download class="download-btn">Download CSS Notes</a>
+            </div>
+        </section>
+
+        <section id="javascript">
+            <h2>JavaScript Notes</h2>
+            <div class="pdf-container">
+                <embed src="pdfs/javascript_notes.pdf" type="application/pdf" width="100%" height="600px">
+                <a href="pdfs/javascript_notes.pdf" download class="download-btn">Download JavaScript Notes</a>
+            </div>
+        </section>
+
+        <section id="python">
+            <h2>Python Notes</h2>
+            <div class="pdf-container">
+                <embed src="pdfs/python_notes.pdf" type="application/pdf" width="100%" height="600px">
+                <a href="pdfs/python_notes.pdf" download class="download-btn">Download Python Notes</a>
+            </div>
+        </section>
+
+        <section id="java">
+            <h2>Java Notes</h2>
+            <div class="pdf-container">
+                <embed src="pdfs/java_notes.pdf" type="application/pdf" width="100%" height="600px">
+                <a href="pdfs/java_notes.pdf" download class="download-btn">Download Java Notes</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 All Coding Notes. Created by AMRENDRA NITISH KRISHNANDAN (ANK)</p>
+    </footer>
+
+    <style>
+        .pdf-container {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .download-btn {
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background: #3700b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #6200ea;
+        }
+    </style>
+
+    <script>
+        // Add smooth scrolling for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const section = document.querySelector(this.getAttribute('href'));
+                section.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
